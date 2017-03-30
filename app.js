@@ -55,10 +55,10 @@ $(document).ready(function() {
             url: "",
             type: "GET",
             data: function(data) {
-                data.bucketFilter = $("#bucket_filter").val()
+                data.bucketFilter = $("#placeholder1").val()
                 data.callStatusFilter = $("#call_status_filter").val()
                 data.dateRange = $("#daterange_id").val()
-                data.serviceArea = $("#service_area_id").val()
+                data.serviceArea = $("#placeholder2").val()
             }
         },
         iDisplayLength: 15,
